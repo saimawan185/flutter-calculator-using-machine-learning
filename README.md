@@ -9,6 +9,7 @@ Welcome to the Calculator app, a versatile and powerful calculator built with Fl
 * Local Database (Hive): Store and retrieve the history of your calculations effortlessly with the local database integration using Hive.
 
 ## Video
+https://github.com/saimawan185/flutter-calculator-using-machine-learning/assets/141933915/2156be65-fdf8-447b-a50e-e7fc4f427dfa
 
 ## How to Use:
 * Enter mathematical expressions or use the image recognition feature.
