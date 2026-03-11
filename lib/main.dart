@@ -25,10 +25,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           scaffoldBackgroundColor: backgroundColor,
-          appBarTheme: AppBarTheme(
-            color: backgroundColor,
-            elevation: 0.0,
-          ),
+          appBarTheme: AppBarTheme(color: backgroundColor, elevation: 0.0),
           textTheme: TextTheme(
             displaySmall: TextStyle(
               fontWeight: FontWeight.bold,
@@ -40,8 +37,9 @@ class MyApp extends StatelessWidget {
               fontSize: 18.0,
             ),
           ),
-          colorScheme:
-              ColorScheme.fromSwatch().copyWith(secondary: yellowColor),
+          colorScheme: ColorScheme.fromSwatch().copyWith(
+            secondary: yellowColor,
+          ),
         ),
         routes: {
           '/': (context) => Calculator(),
